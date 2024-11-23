@@ -61,6 +61,12 @@ build CMakeFiles/Examen.dir/Inventory.cpp.obj: CXX_COMPILER__Examen_unscanned_De
   OBJECT_DIR = CMakeFiles\Examen.dir
   OBJECT_FILE_DIR = CMakeFiles\Examen.dir
 
+build CMakeFiles/Examen.dir/History.cpp.obj: CXX_COMPILER__Examen_unscanned_Debug C$:/Users/frpat/CLionProjects/Examen/Examen/History.cpp || cmake_object_order_depends_target_Examen
+  DEP_FILE = CMakeFiles\Examen.dir\History.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Examen.dir
+  OBJECT_FILE_DIR = CMakeFiles\Examen.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Examen
@@ -69,7 +75,7 @@ build CMakeFiles/Examen.dir/Inventory.cpp.obj: CXX_COMPILER__Examen_unscanned_De
 #############################################
 # Link the executable Examen.exe
 
-build Examen.exe: CXX_EXECUTABLE_LINKER__Examen_Debug CMakeFiles/Examen.dir/main.cpp.obj CMakeFiles/Examen.dir/Inventory.cpp.obj
+build Examen.exe: CXX_EXECUTABLE_LINKER__Examen_Debug CMakeFiles/Examen.dir/main.cpp.obj CMakeFiles/Examen.dir/Inventory.cpp.obj CMakeFiles/Examen.dir/History.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Examen.dir
